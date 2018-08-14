@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="framFragment" type="id" />
+    <item name="myRecycleView" type="id" />
+    <item name="text1" type="id" />
+    <item name="text3" type="id" />
+    <item name="text4" type="id" />
+    <item name="btnFragment" type="id" />
+    <item name="btnDialog" type="id" />
+    <item name="btnRecyclerView" type="id" />
+</resources>
