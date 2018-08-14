@@ -8,8 +8,8 @@ import org.jetbrains.anko.*
 /**
  * Created by khoiron on 12/08/18.
  */
-class FragmentUi<Fragment1>:AnkoComponent<Fragment1> {
-    override fun createView(ui: AnkoContext<Fragment1>)= with(ui) {
+class FragmentUi<T>:AnkoComponent<T> {
+    override fun createView(ui: AnkoContext<T>)= with(ui) {
         verticalLayout {
             backgroundColor = R.color.colorG
             textView {

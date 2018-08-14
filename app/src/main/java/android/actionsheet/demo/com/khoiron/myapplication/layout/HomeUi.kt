@@ -10,8 +10,8 @@ import org.jetbrains.anko.*
  */
 //id = R.id.framFragment
 
-class HomeUi :AnkoComponent<MainActivity> {
-    override fun createView(ui: AnkoContext<MainActivity>)= with(ui) {
+class HomeUi<T> :AnkoComponent<T> {
+    override fun createView(ui: AnkoContext<T>)= with(ui) {
         verticalLayout {
             linearLayout {
                 orientation = LinearLayout.HORIZONTAL

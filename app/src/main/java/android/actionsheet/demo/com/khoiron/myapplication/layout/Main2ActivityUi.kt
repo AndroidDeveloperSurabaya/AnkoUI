@@ -10,8 +10,8 @@ import org.jetbrains.anko.recyclerview.v7.recyclerView
 /**
  * Created by khoiron on 12/08/18.
  */
-class Main2ActivityUi :AnkoComponent<Main2Activity>{
-    override fun createView(ui: AnkoContext<Main2Activity>)= with(ui) {
+class Main2ActivityUi<T> :AnkoComponent<T>{
+    override fun createView(ui: AnkoContext<T>)= with(ui) {
         verticalLayout {
             recyclerView {
                 id = R.id.myRecycleView
