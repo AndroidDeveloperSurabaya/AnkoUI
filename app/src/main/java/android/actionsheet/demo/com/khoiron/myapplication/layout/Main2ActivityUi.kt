@@ -18,30 +18,6 @@ class Main2ActivityUi<T> :AnkoComponent<T>{
             }.lparams(width = matchParent,height = matchParent){
 
             }
-            /*linearLayout {
-                orientation = LinearLayout.HORIZONTAL
-                imageView {
-                    imageResource = R.mipmap.ic_launcher
-                }.lparams(width = dip(100), height = dip(100))
-                linearLayout {
-                    orientation = LinearLayout.VERTICAL
-                    textView("vgsjbvjscdbjevykl").lparams(width = matchParent, height = wrapContent)
-                    textView("vgsjbvjscdbjevykl").lparams(width = matchParent, height = wrapContent)
-                    textView("vgsjbvjscdbjevykl").lparams(width = matchParent, height = wrapContent)
-                    textView("vgsjbvjscdbjevykl").lparams(width = matchParent, height = wrapContent)
-                }.lparams(width = matchParent, height = matchParent) {
-                    leftMargin = dip(10)
-                    topMargin = dip(5)
-                }
-            }.lparams(width = matchParent, height = wrapContent) {
-                leftMargin = dip(10)
-                topMargin = dip(10)
-            }
-            frameLayout {
-                id = R.id.framFragment
-            }.lparams(height = matchParent, width = matchParent){
-
-            }*/
         }
     }
 
